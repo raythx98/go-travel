@@ -1,0 +1,11 @@
+{
+  "id": "04_singapore_weekend",
+  "goal": "Long weekend in Singapore, 3 nights, family of 4 (2 adults 2 kids), budget $2000 from Kuala Lumpur",
+  "expected": {
+    "must_include": ["accommodation", "activities", "flights", "budget"],
+    "must_not_include": ["error"],
+    "budget_ceiling_usd": 2000,
+    "destination_keywords": ["Singapore"],
+    "family_friendly": true
+  }
+}

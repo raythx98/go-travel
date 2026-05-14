@@ -1,0 +1,33 @@
+# Copy to .envrc and fill in values, then: source .envrc
+# .envrc is git-ignored — never commit real secrets.
+
+# Server
+export PORT=5080
+
+# CORS — set to your GitHub Pages origin in production, e.g. https://raythx98.github.io
+export ALLOWED_ORIGIN=*
+
+# PostgreSQL
+export DATABASE_URL=postgres://user:pass@localhost:5432/travelplanner
+
+# Redis
+export REDIS_URL=redis://localhost:6379
+
+# Google Gemini (free tier — get key from https://aistudio.google.com/apikey)
+export GEMINI_API_KEY=
+export GEMINI_MODEL=gemini-3.1-flash-lite-preview
+
+# Ollama (local or Oracle VM)
+export OLLAMA_URL=http://localhost:11434
+export OLLAMA_MODEL=llama3.2
+
+# Rate limiting
+export RATE_LIMIT_RPM=30
+
+# SearXNG (self-hosted)
+export SEARXNG_URL=http://localhost:8080
+
+# LangFuse
+export LANGFUSE_HOST=http://localhost:3000
+export LANGFUSE_PUBLIC_KEY=
+export LANGFUSE_SECRET_KEY=

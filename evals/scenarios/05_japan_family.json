@@ -1,0 +1,13 @@
+{
+  "id": "05_japan_family",
+  "goal": "10 days in Japan (Tokyo + Osaka) for a family of 4 in late March, budget $8000, flying from Sydney",
+  "expected": {
+    "must_include": ["weather", "accommodation", "activities", "flights", "budget"],
+    "must_not_include": ["error"],
+    "budget_ceiling_usd": 8000,
+    "destination_keywords": ["Tokyo", "Osaka", "Japan"],
+    "multi_city": true,
+    "family_friendly": true,
+    "date_range": {"month": 3, "note": "cherry blossom season — should be mentioned"}
+  }
+}

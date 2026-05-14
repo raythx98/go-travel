@@ -1,0 +1,11 @@
+{
+  "id": "02_bali_budget",
+  "goal": "7 days in Bali on a tight budget, under $1000 total, solo traveller from Singapore",
+  "expected": {
+    "must_include": ["weather", "accommodation", "activities", "budget"],
+    "must_not_include": ["error"],
+    "budget_ceiling_usd": 1000,
+    "destination_keywords": ["Bali", "Indonesia"],
+    "date_range": {}
+  }
+}

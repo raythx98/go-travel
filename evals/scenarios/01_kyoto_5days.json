@@ -1,0 +1,11 @@
+{
+  "id": "01_kyoto_5days",
+  "goal": "Plan 5 days in Kyoto in October, budget $3000 for 2 people flying from Singapore",
+  "expected": {
+    "must_include": ["weather", "accommodation", "activities", "flights", "budget"],
+    "must_not_include": ["error"],
+    "budget_ceiling_usd": 3000,
+    "destination_keywords": ["Kyoto", "Japan"],
+    "date_range": {"month": 10}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "03_europe_multicity",
+  "goal": "2 weeks Europe trip visiting Paris, Rome, and Barcelona in June, budget $5000 for 2 people",
+  "expected": {
+    "must_include": ["weather", "accommodation", "activities", "flights", "budget"],
+    "must_not_include": ["error"],
+    "budget_ceiling_usd": 5000,
+    "destination_keywords": ["Paris", "Rome", "Barcelona"],
+    "multi_city": true
+  }
+}
